@@ -1,6 +1,6 @@
 Tags used:-
 
-<head>: To define the head portion of the document titled Coffee Cafe.
+<head>: To define the head portion of the document.
  
 <body>: To define page body. Contains all contents such as headings, paragraphs and all other tags.
 
