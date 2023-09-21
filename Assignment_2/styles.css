@@ -1,0 +1,458 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.wrapper {
+    background-color: #dbd6d6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative; 
+
+}
+.wrapper h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 50px;
+    color: rgb(211, 98, 22);
+
+
+}
+.video_audio {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(211, 98, 22);
+    background-color: rgb(204, 204, 204);
+    text-align: center;
+
+    text-decoration-line: underline;
+    font-size: 35px;
+    padding-bottom: 35px;
+}
+nav ul li {
+    list-style: none;
+    margin: 10px 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 15px;
+    display: inline-block;
+    transition: 0.7s ease;
+}
+
+nav ul li a {
+    color: rgb(141, 80, 38);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bolder;
+    transition: 0.7s ease;
+}
+.article_about_me {
+    overflow: auto;
+    max-width: 100%;
+    max-height: 100px;
+}
+
+nav ul li a:hover {
+    color: rgb(211, 98, 22);
+    transform: scale(1.3);
+}
+
+span {
+    color: rgb(211, 98, 22);
+}
+
+.detailstoconnect {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-left: 3%;
+}
+
+.aboutpage {
+    background-color: rgb(204, 175, 175);
+    padding: 50px 0;
+    color: rgb(211, 98, 22);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#about {
+    border-radius: 25px;
+    background-color: rgb(211, 199, 199);
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 2px;
+    transition: 0.7s ease;
+}
+
+.about h1 {
+    text-decoration-line: underline;
+    font-size: 35px;
+    padding-bottom: 35px;
+}
+
+#para {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    padding-top: 30px;
+    line-height: 30px;
+    font-size: 17px;
+
+}
+
+
+.educationpage {
+    background-color: rgb(204, 204, 204);
+    padding: 50px 0;
+    color: rgb(211, 98, 22);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    padding-top: 50px;
+}
+
+.edu h1 {
+    text-decoration-line: underline;
+    font-size: 35px;
+    padding-bottom: 35px;
+}
+
+.college1 {
+    border-radius: 25px;
+    background-color: white;
+    width: 40%;
+    padding: 25px;
+    margin-left: 30%;
+    margin-right: 30%;
+    transition: 0.7s ease;
+}
+
+.college2 {
+    border-radius: 25px;
+    background-color: white;
+    width: 40%;
+    padding: 25px;
+    margin-left: 30%;
+    margin-right: 30%;
+    transition: 0.7s ease;
+}
+
+.college1:hover {
+    transform: scale(1.2);
+}
+
+.college2:hover {
+    transform: scale(1.2);
+}
+
+.colleges h2 {
+    font-size: 20px;
+}
+
+.colleges p {
+    color: black;
+    font-size: medium;
+}
+
+.colleges p span {
+    color: rgb(117, 41, 41);
+    font-weight: bolder;
+}
+
+.experiencepage {
+    background-color: rgb(204, 175, 175);
+
+    padding: 50px 0;
+    color: rgb(211, 98, 22);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.exp_det h2 span {
+    color: rgb(117, 41, 41);
+    font-weight: bolder;
+}
+
+#about {
+    border-radius: 25px;
+    background-color: rgb(211, 199, 199);
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 2px;
+    transition: 0.7s ease;
+    overflow: auto;
+}
+
+.exp h1 {
+    text-decoration-line: underline;
+    font-size: 35px;
+}
+
+.logo_comp {
+    float: left;
+    margin-left: 20%;
+    margin-bottom: 8px;
+}
+
+.details_exp {
+    margin-left: 2%;
+    column-count: 2;
+    line-height: 1.5;
+}
+
+.exp_det h2 {
+    font-size: 20px;
+    padding-top: 20px;
+    margin-bottom: 1%;
+    width: 80%;
+}
+
+.details_exp ul li {
+    font-size: medium;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    margin-left: 2%;
+    margin-right: 2%;
+    line-height: 30px;
+    font-size: 17px;
+}
+
+.details_exp ul li p span {
+    color: orange;
+    font-weight: bolder;
+}
+
+.certificationspage {
+    background-color: rgb(204, 204, 204);
+    padding: 70px 0;
+    color: rgb(211, 98, 22);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.certificate {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.certificationspage h1 {
+    text-decoration-line: underline;
+    font-size: 35px;
+    padding-bottom: 35px;
+}
+
+.certificate1 {
+    border-radius: 25px;
+    background-color: white;
+    width: 15%;
+    padding: 25px;
+    transition: 0.7s ease;
+}
+
+.certificate2 {
+    border-radius: 25px;
+    background-color: white;
+    width: 15%;
+    padding: 25px;
+    margin-left: 3%;
+    transition: 0.7s ease;
+}
+
+.certificate3 {
+    border-radius: 25px;
+    background-color: white;
+    width: 15%;
+    padding: 25px;
+    margin-left: 3%;
+    transition: 0.7s ease;
+}
+
+.certificate1:hover {
+    transform: scale(1.2);
+}
+
+.certificate2:hover {
+    transform: scale(1.2);
+}
+
+.certificate3:hover {
+    transform: scale(1.2);
+}
+
+.contactpage {
+    background-color: rgb(204, 175, 175);
+    padding: 40px 0;
+    color: rgb(211, 98, 22);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contactpage h1 {
+    text-decoration-line: underline;
+    font-size: 35px;
+    padding-bottom: 35px;
+}
+
+.phone {
+    border-radius: 25px;
+    background-color: white;
+    width: 23%;
+    padding: 25px;
+    transition: 0.7s ease;
+}
+
+.mail {
+    border-radius: 25px;
+    background-color: white;
+    width: 23%;
+    padding: 25px;
+    margin-left: 3%;
+    transition: 0.7s ease;
+}
+
+.phone:hover {
+    transform: scale(1.2);
+}
+
+.mail:hover {
+    transform: scale(1.2);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+.input {
+    padding: 10px 120px;
+    margin: 10px;
+    border: none;
+    border-radius: 15px;
+}
+
+figcaption {
+    font-style: italic;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+figcaption h1 {
+    color: blueviolet;
+}
+
+#message {
+    width: 25%;
+    padding: 10px;
+}
+
+#submit {
+    padding: 10px;
+    width: 10%;
+}
+
+#submit:hover {
+    box-shadow: 5px 5px 5px violet;
+}
+
+.last {
+    background-color: rgb(145, 134, 134);
+    color: rgb(211, 98, 22);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    padding-top: 20px;
+}
+
+@media (max-width:820px) {
+    nav ul li {
+        padding: 0;
+    }
+
+    .college1 {
+        width: 40%;
+        margin-right: 20%;
+        margin-left: 25%;
+    }
+
+    .college2 {
+        width: 40%;
+        margin-right: 20%;
+        margin-left: 25%;
+    }
+
+    #submit {
+        padding-right: 50px;
+        width: 10%;
+    }
+
+    .input {
+        padding: 10px 20px;
+    }
+
+    .det h2 {
+        font-size: 8px
+    }
+
+    .logo_comp {
+        display: flex;
+        justify-content: center;
+        width: 60%;
+    }
+
+    .exp_det h2 {
+        font-size: 20px;
+        padding-top: 20px;
+        text-align: center;
+        overflow: auto;
+        margin-left: 11%;
+        padding-right: 50px;
+    }
+
+    .certificate img {
+        width: 60px;
+    }
+
+    .video_audio{
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+video {
+    width: 50%;
+    height: auto;
+  }
+
+
+table {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
