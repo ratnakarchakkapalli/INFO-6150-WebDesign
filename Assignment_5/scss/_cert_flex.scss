@@ -1,0 +1,55 @@
+@import 'config';
+
+#certifications {
+    text-align: center;
+    background-color: $body-color;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .image-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+  }
+  
+  .certification_div {
+    flex: 0 0 calc(25% - 20px);
+    margin: 10px;
+    padding: 15px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: left;
+  
+    a {
+      text-decoration: none;
+    }
+  
+    .hover-zoom-container {
+      position: relative;
+      overflow: hidden;
+      transition: transform 0.3s;
+      border-radius: 5px;
+  
+      img {
+        width: 100%;
+        height: auto;
+      }
+      
+  
+      &:hover {
+        transform: scale(1.1);
+        .hover-zoom-content {
+          opacity: 1;
+        }
+      }
+    }
+  }
+  

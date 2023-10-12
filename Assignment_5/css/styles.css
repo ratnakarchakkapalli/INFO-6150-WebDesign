@@ -1,0 +1,348 @@
+h2 {
+  text-align: center;
+}
+
+#resp_sec {
+  background-image: url(/images/Ratnakar.jpeg);
+  display: flex;
+  background-size: cover;
+  height: 100vh;
+}
+
+#experience {
+  line-height: 1.5;
+  overflow: auto;
+  max-height: 200px;
+}
+
+h2 {
+  text-align: center;
+}
+
+#resp_sec {
+  background-image: url(/images/Ratnakar.jpeg);
+  display: flex;
+  background-size: cover;
+  height: 100vh;
+}
+
+#experience {
+  line-height: 1.5;
+  overflow: auto;
+  max-height: 200px;
+}
+
+.header {
+  max-width: 1500px;
+  padding: 0 30px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.education, .about_education, .header-container {
+  display: grid;
+  gap: 20px;
+  grid-auto-rows: minmax(10px, auto);
+  padding: 1em;
+}
+
+.header-container .header-content {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  text-align: center;
+}
+.header-container .header-icons {
+  text-align: end;
+  grid-column: 2/4;
+  grid-row: 1/2;
+}
+
+.about {
+  grid-column: 1/1;
+  grid-row: 1/3;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.education {
+  grid-column: 2/6;
+  grid-row: 1/3;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.education .education_header {
+  grid-column: 1/4;
+  grid-row: 1/1;
+}
+.education .education_div1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.education .education_div2 {
+  grid-column: 2/4;
+  grid-row: 1/2;
+}
+
+.image:hover {
+  transform: scale(1.3);
+}
+
+.hover_zoom:hover {
+  transform: scale(0.9);
+}
+
+.hover_zoom_img:hover {
+  transform: scale(1.1);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.video, .audio {
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.video video, .video audio, .audio video, .audio audio {
+  width: 30%;
+}
+
+#Send_your_queries {
+  text-align: center;
+}
+
+nav ul li a, .form_img, .list {
+  display: inline-block;
+  border-radius: 8px;
+  padding: 8px 8px;
+  margin: 10px;
+}
+nav ul li a:hover, .form_img:hover, .list:hover {
+  transform: scale(1.2);
+}
+
+.list {
+  background-color: #46c1f0;
+}
+.list a {
+  color: rgba(255, 255, 255, 0.937254902);
+}
+
+.form_img {
+  background-color: #a4e1f8;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.skill_article {
+  flex: 1;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#skills {
+  text-align: center;
+  margin: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 0;
+  color: #333;
+}
+
+.article_br {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h3 {
+  font-size: 18px;
+  color: #333;
+  margin: 0 0 10px;
+}
+
+h2 {
+  text-align: center;
+}
+
+#resp_sec {
+  background-image: url(/images/Ratnakar.jpeg);
+  display: flex;
+  background-size: cover;
+  height: 100vh;
+}
+
+#experience {
+  line-height: 1.5;
+  overflow: auto;
+  max-height: 200px;
+}
+
+#certifications {
+  text-align: center;
+  background-color: #D2E9E9;
+  padding: 20px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.image-gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.certification_div {
+  flex: 0 0 calc(25% - 20px);
+  margin: 10px;
+  padding: 15px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  background-color: #fff;
+  text-align: left;
+}
+.certification_div a {
+  text-decoration: none;
+}
+.certification_div .hover-zoom-container {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s;
+  border-radius: 5px;
+}
+.certification_div .hover-zoom-container img {
+  width: 100%;
+  height: auto;
+}
+.certification_div .hover-zoom-container:hover {
+  transform: scale(1.1);
+}
+.certification_div .hover-zoom-container:hover .hover-zoom-content {
+  opacity: 1;
+}
+
+nav ul li a, .list, .form_img {
+  display: inline-block;
+  border-radius: 8px;
+  padding: 8px 8px;
+  margin: 10px;
+}
+nav ul li a:hover, .list:hover, .form_img:hover {
+  transform: scale(1.2);
+}
+
+.list {
+  background-color: #46c1f0;
+}
+.list a {
+  color: rgba(255, 255, 255, 0.937254902);
+}
+
+.form_img {
+  background-color: #a4e1f8;
+}
+
+:root {
+  --primary-bg: #f0f0f0;
+  --text-color: #333;
+}
+
+#Send_your_queries h2 a {
+  color: #3498db;
+  text-decoration: none;
+}
+#Send_your_queries h2 a:hover {
+  text-decoration: underline;
+}
+
+#contact address li {
+  margin: 10px 0;
+}
+#contact address li a {
+  text-decoration: none;
+  color: #e74c3c;
+}
+
+#contact {
+  text-align: center;
+}
+#contact h2 {
+  color: #3498db;
+}
+#contact address {
+  font-size: 1pxem;
+}
+#contact .menu {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#contact .menu:hover {
+  background-color: #217dbb;
+}
+
+footer {
+  text-align: center;
+  background-color: #0A4D68;
+  color: #64CCC5;
+  padding: 10px 0;
+  border-width: 2px;
+}
+
+nav ul {
+  list-style: none;
+}
+nav ul li a {
+  color: rgba(255, 255, 255, 0.937254902);
+  background-color: #46c1f0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #D2E9E9;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+#header {
+  background-color: #042633;
+  color: #fff;
+  height: 150px;
+}
+#header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#header ul {
+  display: flex;
+  list-style-type: none;
+}
+#header li {
+  padding: 10px;
+}
+#header a:hover {
+  color: #e74c3c;
+}/*# sourceMappingURL=styles.css.map */

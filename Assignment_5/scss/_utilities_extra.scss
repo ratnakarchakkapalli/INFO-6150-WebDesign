@@ -1,0 +1,98 @@
+@import 'buttons';
+
+// Define Variables
+$primary-color: #3498db;
+$secondary-color: #e74c3c;
+
+// Define Custom Properties (CSS Variables)
+:root {
+  --primary-bg: #f0f0f0;
+  --text-color: #333;
+}
+
+// Nesting and Interpolation
+#Send_your_queries {
+  h2 {
+    a {
+      color: #{$primary-color};
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+// Placeholder Selector
+%contact-info {
+  li {
+    margin: 10px 0;
+    a {
+      text-decoration: none;
+      color: $secondary-color;
+    }
+  }
+}
+
+// Mixin
+@mixin button($bg-color, $text-color) {
+  background-color: $bg-color;
+  color: $text-color;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darken($bg-color, 10%);
+  }
+}
+
+// Functions
+@function calculate-em($size-in-pixels) {
+  @return $size-in-pixels / 16 + em;
+}
+
+// Usage of the Placeholder Selector and Mixin
+#contact {
+    text-align: center;
+  h2 {
+    color: $primary-color;
+  }
+  address {
+    font-size: calculate-em(16px);
+    @extend %contact-info;
+  }
+  .menu {
+    @include button($primary-color, white);
+  }
+}
+
+// More SASS Features (Your choice)
+$border-width: 2px;
+
+footer {
+    text-align: center;
+    background-color: #0A4D68;
+    color: #64CCC5;
+    padding: 10px 0;
+    border: {
+    width: $border-width;
+  }
+}
+
+
+// More nesting and interpolation
+nav {
+  ul {
+    list-style: none;
+    li {
+      a {
+        @extend %list;
+        @include set-background-list($header-color);
+        background-color: lighten($color: $header-color, $amount: 50);
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+%list {
+    display: inline-block;
+    border-radius: 8px;
+    padding: 8px 8px;
+    margin: 10px;
+
+
+    &:hover {
+        transform: scale(1.2);
+    }
+}
+
+// .btn-primary {
+//     @extend %btn;
+//     background-color: lighten($primary-color, 10%);
+// }
+
+// .btn-secondary {
+//     @extend %btn;
+//     background-color: lighten($secondary-color, 40%);
+// }
+
+
+@mixin set-background-list($color) {
+    color : set-text-color-list($header-color);
+    
+}
+
+@function set-text-color-list($color) {
+    @if (lightness($color) > 60) {
+        @return #333;
+    }
+    @else {
+        @return #ffffffef;
+    }
+}
+
+.list {
+    
+    @extend %list;
+    background-color: lighten($color: $header-color, $amount: 50);
+
+    a {
+        @include set-background-list($header-color);
+    }
+}
+
+.form_img {
+    @extend %list;
+    background-color: lighten($color: $header-color, $amount: 70);
+}

@@ -1,0 +1,47 @@
+@import 'config';
+@import 'utilities';
+@import 'buttons';
+@import 'images';
+@import 'flexbox';
+@import 'cert_flex';
+@import 'utilities_extra';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: $body-color;
+    font-family:$font-stack ;
+    line-height: 1.5;
+
+}
+
+#header {
+    @include set-background($header-color);
+    height: 150px;
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    ul {
+        display: flex;
+        list-style-type: none;
+
+    }
+
+    li {
+        padding: 10px;
+    }
+
+    a:hover {
+        color: $secondary-color; 
+    }
+}
+
+
