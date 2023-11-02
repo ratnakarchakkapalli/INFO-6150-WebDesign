@@ -1,0 +1,107 @@
+.form {
+    width: 500px;
+    border-radius: 20px;
+    height: 90vh;
+}
+
+.login-heading {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.username {
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+input {
+    width: 100%;
+    border: 1px solid transparent;
+    box-shadow: none
+}
+
+.hr-1,
+.hr-2,
+.hr-3 {
+    border: 1px solid rgb(194, 187, 187);
+    transition: 0.2s linear;
+}
+
+.input-1,
+.input-2,
+.input-3 {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#user {
+    font-size: 20px;
+    color: rgb(194, 187, 187)
+}
+
+#lock {
+    font-size: 20px;
+    color: rgb(194, 187, 187)
+}
+
+.login-button {
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 3% 3%;
+    background-size: 300% 100%;
+    background-image: linear-gradient(to right, rgb(140, 129, 140), rgb(180, 188, 190), rgb(145, 134, 145));
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.5s linear;
+}
+
+.login-button:hover {
+    background-position: 100% 0%;
+    transition: all 0.5s linear;
+}
+
+a {
+    color: rgb(148, 141, 141)
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+.show-me {
+    display: none
+}
+
+*:focus {
+    outline: none;
+}
+
+@media screen and (max-width:550px) {
+    .form {
+        width: 450px
+    }
+}
+
+@media screen and (max-width:425px) {
+    .form {
+        width: 380px
+    }
+}
+
+@media screen and (max-width:375px) {
+    .form {
+        width: 330px
+    }
+}
+
+@media screen and (max-width:320px) {
+    .form {
+        margin-left: -5%;
+        width: 318px
+    }
+}

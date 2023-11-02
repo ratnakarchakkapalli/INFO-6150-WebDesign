@@ -1,0 +1,54 @@
+.ui-field-contain {
+    text-align: center;
+}
+
+#plus,
+#minus,
+#multiply,
+#divide {
+    color: rgb(237, 235, 231);
+    background-color: rgb(32, 99, 84);
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 2rem;
+    border-color: rgb(32, 99, 84);
+}
+
+#answer {
+    text-align: center;
+    color: rgb(40, 101, 35);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
+
+.ui-field-contain {
+    margin-left: 20%;
+    width: 50%;
+    color: rgb(46, 52, 3);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+
+}
+
+.result {
+    margin-left: 20%;
+    width: 50%;
+    color: brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    text-align: center;
+
+}
+
+.hide-1,
+.hide-2 {
+    text-align: center;
+}
+
+span {
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(53, 52, 54);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: normal;
+    font-size: 50px;
+}
