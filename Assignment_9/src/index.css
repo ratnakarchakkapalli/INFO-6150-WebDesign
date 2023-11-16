@@ -1,0 +1,104 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  font-weight: 400;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  background: rgb(48, 135, 240);
+  margin-top: -170px;
+}
+
+
+
+#success {
+  width: 30%;
+  margin-left: 35%;
+  text-align: center;
+  background-color: rgb(3, 221, 255);
+  border-radius: 20px;
+  font-weight: bolder;
+}
+
+.panel1 {
+  width: 100%;
+  display: flex;
+  margin-left: 160%;
+  justify-content: center;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.panel2 {
+  width: 30%;
+  margin-left: 35%;
+  text-align: center;
+  background-color: rgb(178, 243, 255);
+  border-radius: 20px;
+}
+
+.panel3 {
+  width: 30%;
+  margin-left: 35%;
+  text-align: center;
+  background-color: rgb(178, 243, 255);
+  border-radius: 20px;
+}
+
+
+.contactdetails1 {
+  width: 30%;
+  margin-left: 35%;
+  text-align: center;
+  background-color: rgb(178, 243, 255);
+  border-radius: 20px;
+  
+}
+
+.contactdetails5 {
+  width: 46%;
+  margin-left: 27%;
+  background-color: rgb(178, 243, 255);
+  border-radius: 20px;
+  
+  justify-content: center
+}
+
+.contactdetails7 {
+  width: 30%;
+  margin-left: 35%;
+  border-radius: 20px;
+  justify-content: center
+}
+
+.contactdetails {
+  width: 30%;
+  margin-left: 35%;
+  text-align: center;
+  background-color: rgb(178, 243, 255);
+  border-radius: 20px;
+  font-weight: bolder;
+}
+
+.contactdetails6 {
+  width: 40%;
+  margin-left: 30%;
+  text-align: center;
+  background-color: rgb(178, 243, 255);
+  border-radius: 20px;
+  font-weight: bolder;
+}
+
+.contactdetails4 {
+  width: 40%;
+  margin-left: 30%;
+  text-align: center;
+  background-color: rgb(178, 243, 255);
+  border-radius: 20px;
+  font-weight: bolder;
+}
